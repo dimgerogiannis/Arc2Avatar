@@ -2,9 +2,14 @@
 
 <p align="center"><img src="./assets/teaser.png" width="1000" alt="Method overview placeholder"></p>
 
-<font color="#1F618D"><strong>Dimitrios Gerogiannis</strong></font> · <font color="#1F618D"><strong>Foivos Paraperas Papantoniou</strong></font> · <font color="#1F618D"><strong>Rolandos Alexandros Potamias</strong></font> · <font color="#1F618D"><strong>Alexandros Lattas</strong></font> · <font color="#1F618D"><strong>Stefanos Zafeiriou</strong></font>  
-<font color="#117A65"><em>Imperial College London, UK</em></font>  
-<font color="#2980B9">{d.gerogiannis22, f.paraperas, r.potamias, a.lattas, s.zafeiriou}@imperial.ac.uk</font>
+<p align="center">
+  <a href="https://dimgerogiannis.github.io/" style="color:#1a73e8;">Dimitrios Gerogiannis</a>,
+  <a href="https://foivospar.github.io" style="color:#1a73e8;">Foivos Paraperas Papantoniou</a>,
+  <a href="https://rolpotamias.github.io" style="color:#1a73e8;">Rolandos Alexandros Potamias</a>,
+  <a href="https://alexlattas.com" style="color:#1a73e8;">Alexandros Lattas</a>,
+  <a href="https://profiles.imperial.ac.uk/s.zafeiriou" style="color:#1a73e8;">Stefanos Zafeiriou</a><br>
+  <span style="color:#1a73e8;">Imperial College London, UK</span>
+</p>
 
 ---
 
