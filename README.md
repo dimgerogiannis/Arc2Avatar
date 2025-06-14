@@ -26,7 +26,7 @@
 
 ## ✨ Introduction
 
-**Arc2Avatar is an SDS-based method that generates a complete 3D head from a single image, delivering:**
+**Arc2Avatar is an SDS-based method that generates a complete 3D head from a single image**, delivering:
 
 - 🔥 **avatars of unprecedented realism, detail, and natural color fidelity**, while avoiding the common color issues of SDS.  
 - 🔥 **first approach to leverage a human face foundation model** as guidance.  
