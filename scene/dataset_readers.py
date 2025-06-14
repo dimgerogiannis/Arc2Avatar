@@ -75,7 +75,7 @@ def readCircleCamInfo(path, opt):
     print("Reading Test Transforms")
     test_cam_infos = GenerateCircleCameras(opt, render45=opt.render_45)
 
-    ply_path = "/vol/deform/dg722/flame_model/assets/flame/NEWMORE.ply"
+    ply_path = "scene/template/masked_template.ply"
 
     def load_ply(ply_file):
         """
