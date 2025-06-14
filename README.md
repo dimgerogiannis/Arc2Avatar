@@ -99,6 +99,15 @@ This directory contains the evolving 3D Gaussian avatar, allowing you to visuall
 
 ---
 
+## 🙏 Acknowledgements
+
+This work builds upon prior efforts. Our code is based on:
+
+- [LucidDreamer](https://github.com/EnVision-Research/LucidDreamer)  
+- [Arc2Face](https://github.com/foivospar/Arc2Face)
+
+---
+
 ## 📚 Citation
 
 If you find Arc2Avatar useful for your research, please consider citing our paper:
