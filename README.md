@@ -42,38 +42,49 @@
 ---
 
 ## ⚙️ Installation
-## ⚙️ Installation
+
+**Step 1 – Clone the CUDA extension submodules**
 
 ```bash
-# 1 · Clone submodules with recursive flags
 cd submodules
 git clone --recursive https://github.com/YixunLiang/diff-gaussian-rasterization.git
 git clone --recursive https://github.com/YixunLiang/simple-knn.git
 cd ..
+```
 
-# 2 · Create Conda environment (GPU setup, CUDA 11.8)
+**Step 2 – Create and activate the Conda environment (CUDA 11.8 + Python 3.9.16)**
+
+```bash
 conda create -n arc2avatar python=3.9.16 cudatoolkit=11.8 -y
 conda activate arc2avatar
+```
 
-# 3 · Install Python dependencies
+**Step 3 – Install Python dependencies**
+
+```bash
 python -m pip install -U pip setuptools wheel
 python -m pip install -r requirements.txt
+```
 
-# 4 · Build local CUDA extensions
+**Step 4 – Build and install local CUDA extensions**
+
+```bash
 python -m pip install submodules/diff-gaussian-rasterization/
 python -m pip install submodules/simple-knn/
+```
 
-# 5 · Download Arc2Face models
+**Step 5 – Download required models for Arc2Face**
+
+```bash
 python download_models.py
+```
 
----
 
 ## 🚀 Usage
 ### Quick demo
 ```bash
 python demo.py --img ./assets/face.jpg --out out/ --exp "happy"
 open out/index.html
-```
 
 ### Train your own avatar
 ```bash
