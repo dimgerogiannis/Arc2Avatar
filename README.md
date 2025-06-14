@@ -80,7 +80,7 @@ python download_models.py
 
 ## 🚀 Usage
 
-To train your 3D avatars, follow these steps:
+To train your own 3D avatars, follow these steps:
 
 1. **Create a subject directory**  
    Make a new folder for your subject (e.g. `subject_id`) and place a single image of the individual inside it.  
