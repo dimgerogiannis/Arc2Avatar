@@ -1,6 +1,6 @@
 # Arc2Avatar: Generating Expressive 3‑D Avatars from a Single Image via ID Guidance
 
-<p align="center"><img src="./assets/method_figure_placeholder.png" width="760" alt="Method overview placeholder"></p>
+<p align="center"><img src="./assets/teaser.png" width="760" alt="Method overview placeholder"></p>
 
 <font color="#1F618D"><strong>Dimitrios Gerogiannis</strong></font> · <font color="#1F618D"><strong>Foivos Paraperas Papantoniou</strong></font> · <font color="#1F618D"><strong>Rolandos Alexandros Potamias</strong></font> · <font color="#1F618D"><strong>Alexandros Lattas</strong></font> · <font color="#1F618D"><strong>Stefanos Zafeiriou</strong></font>  
 <font color="#117A65"><em>Imperial College London, UK</em></font>  
