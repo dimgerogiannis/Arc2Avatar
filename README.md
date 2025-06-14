@@ -15,7 +15,7 @@
   <a href="https://arc2avatar.github.io" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Project-Page-1a73e8?style=for-the-badge&logo=github" alt="Project Page"/>
   </a>
-  <a href="[https://arxiv.org/abs/2406.12345](https://arxiv.org/abs/2501.05379)" style="text-decoration:none;">
+  <a href="https://arxiv.org/abs/2501.05379" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Paper-arXiv-d9534f?style=for-the-badge&logo=arxiv" alt="arXiv Paper"/>
   </a>
 </p>
