@@ -70,11 +70,11 @@ python train.py   --img ./data/my_subject.jpg   --epochs 600 --batch 4   --lora_
 
 ## 📚 Citation
 ```bibtex
-@inproceedings{gerogiannis2025arc2avatar,
-  title     = {Arc2Avatar: Generating Expressive 3-\!D Avatars from a Single Image via ID Guidance},
-  author    = {Gerogiannis, Dimitrios and Paraperas Papantoniou, Foivos and Potamias, Rolandos Alexandros and Lattas, Alexandros and Zafeiriou, Stefanos},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year      = {2025}
+@article{gerogiannis2025arc2avatar,
+  title={Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance},
+  author={Gerogiannis, Dimitrios and Papantoniou, Foivos Paraperas and Potamias, Rolandos Alexandros and Lattas, Alexandros and Zafeiriou, Stefanos},
+  journal={arXiv preprint arXiv:2501.05379},
+  year={2025}
 }
 ```
 
