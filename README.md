@@ -78,6 +78,8 @@ pip install submodules/simple-knn/
 python download_models.py
 ```
 
+---
+
 ## 🚀 Usage
 
 To train your own 3D avatars, follow these steps:
