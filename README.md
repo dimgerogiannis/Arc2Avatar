@@ -115,11 +115,13 @@ This work builds upon prior efforts. Our code is based on:
 If you find Arc2Avatar useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{gerogiannis2025arc2avatar,
-  title={Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance},
-  author={Gerogiannis, Dimitrios and Papantoniou, Foivos Paraperas and Potamias, Rolandos Alexandros and Lattas, Alexandros and Zafeiriou, Stefanos},
-  journal={arXiv preprint arXiv:2501.05379},
-  year={2025}
+@InProceedings{Gerogiannis_2025_CVPR,
+    author    = {Gerogiannis, Dimitrios and Papantoniou, Foivos Paraperas and Potamias, Rolandos Alexandros and Lattas, Alexandros and Zafeiriou, Stefanos},
+    title     = {Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {10770-10782}
 }
 ```
 
