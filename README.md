@@ -82,21 +82,21 @@ python download_models.py
 
 ## 🚀 Usage
 
-To train your own 3D avatars 🎭, follow these steps:
+### 1 · Create a subject directory
 
-1. **Create a subject directory**  
-   Make a new folder for your subject (e.g. `subject_id`) and place a single image of the individual inside it.  
-   `subject_id` refers to a **path** to this subject-specific directory.
+Make a new folder for your subject (e.g. `subject_id`) and place a single image of the individual inside it.  
+`subject_id` refers to a **path** to this subject-specific directory.
 
-2. **Run the training script**
+### 2 · Run the training script
 
 ```bash
 python train.py --opt ./configs/config.yaml --subject subject_id --batch_size 4
 ```
 
-3. **Track optimization progress**  
-   During training, a subfolder named `splat/` is automatically created inside `subject_id/`.  
-   This directory contains the evolving 3D Gaussian avatar, allowing you to visually monitor the SDS process from start to finish.
+### 3 · Track optimization progress
+
+During training, a subfolder named `splat/` is automatically created inside `subject_id/`.  
+This directory contains the evolving 3D Gaussian avatar, allowing you to visually monitor the SDS process from start to finish.
 
 ---
 
