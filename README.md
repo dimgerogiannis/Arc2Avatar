@@ -24,16 +24,20 @@
 
 ---
 
-## 🗞️ News
-- **14 June 2025** – *Initial public release*: full training/inference code **and pretrained models** are now available.  
-- **Coming soon** – Expression‑control fine‑tuning code and weights will be added in a follow‑up commit.
+## ✨ Introduction
+
+**Arc2Avatar is an SDS-based method that generates a complete 3D head from a single image, delivering:**
+
+- 🔥 **avatars of unprecedented realism, detail, and natural color fidelity**, while avoiding the common color issues of SDS.  
+- 🔥 **first approach to leverage a human face foundation model** as guidance.  
+- 🔥 **full 3DMM integration**, enabling expression control and refinements within the same framework.  
+- 🔥 **state-of-the-art identity preservation and superior overall quality**, supported by both quantitative and qualitative results.  
 
 ---
 
-## ✨ Introduction
-- **Text‐conditioned distillation is too abstract** for identity‑preserving face reconstruction; we guide SDS with dense *ArcFace* embeddings instead.
-- **First to couple a human‑face foundation model with SDS**; prior art (*ID‑to‑3D*) used ArcFace vectors but not a full frozen face network.
-- **Strategic, low‑guidance SDS** + a strong face prior tame oversaturation, yielding avatars with natural colour fidelity.
+## 🗞️ News
+- **14 June 2025** – *Initial public release*: full training/inference code **and pretrained models** are now available.  
+- **Coming soon** – Expression‑control fine‑tuning code and weights will be added in a follow‑up commit.
 
 ---
 
