@@ -43,7 +43,7 @@
 
 ## ⚙️ Installation
 
-### 1 · Clone submodules
+### 1 · Clone CUDA submodules
 
 ```bash
 cd submodules
@@ -52,28 +52,27 @@ git clone --recursive https://github.com/YixunLiang/simple-knn.git
 cd ..
 ```
 
-### 2 · Create Conda environment (GPU setup, CUDA 11.8)
+### 2 · Create and activate conda environment (Python 3.9.16, CUDA 11.8, tested on NVIDIA RTX 4090)
 
 ```bash
-conda create -n arc2avatar python=3.9.16 cudatoolkit=11.8 -y
+conda create -n arc2avatar python=3.9.16 cudatoolkit=11.8
 conda activate arc2avatar
 ```
 
-### 3 · Install Python dependencies
+### 3 · Install dependencies
 
 ```bash
-python -m pip install -U pip setuptools wheel
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 4 · Build local CUDA extensions
 
 ```bash
-python -m pip install submodules/diff-gaussian-rasterization/
-python -m pip install submodules/simple-knn/
+pip install submodules/diff-gaussian-rasterization/
+pip install submodules/simple-knn/
 ```
 
-### 5 · Download Arc2Face models
+### 5 · Download required models for Arc2Face
 
 ```bash
 python download_models.py
