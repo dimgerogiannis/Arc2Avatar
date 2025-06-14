@@ -35,9 +35,11 @@
 
 ---
 
-## 🗞️ News
-- **14 June 2025** – *Initial public release*: full training/inference code **and pretrained models** are now available.  
-- **Coming soon** – Expression‑control fine‑tuning code and weights will be added in a follow‑up commit.
+## 🗞️ News and Updates
+
+- ✅ **14 June 2025** – *Initial public release*: Training code and models are now available. This release reflects a small but important revision of the original paper, which addresses failure cases noted in the original version and further improves the fidelity and consistency of the generated avatars.
+- 📌 **Coming soon** – Expression‑control and refinement code will be added in a follow‑up commit.
+- 📌 **Coming soon** – Paper revision will be uploaded to arXiv very soon.
 
 ---
 
