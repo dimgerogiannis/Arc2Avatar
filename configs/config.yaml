@@ -5,7 +5,7 @@ seed: 0
 PipelineParams:
   convert_SHs_python: true #true = using direct rgb
 ModelParams:
-  workspace: "/vol/deform/dg722/SasaBastaNew/newfinal/WillSmith/train"
+  workspace: "/subjects/jackman"
   sh_degree: 0
   bg_aug_ratio: 0.66
 
