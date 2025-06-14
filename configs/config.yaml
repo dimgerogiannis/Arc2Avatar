@@ -56,7 +56,7 @@ GenerateCamParams:
   max_fovy_range: [0.3, 0.7]  
 
 OptimizationParams:
-  subject_id: "/vol/deform/dg722/SasaBastaNew/newfinal/WillSmith/train"
+  subject_id: "/subjects/jackman"
   iterations: 7000
   save_process: True
   pro_frames_num: 600
