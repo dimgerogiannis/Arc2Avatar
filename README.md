@@ -73,6 +73,9 @@ python train.py   --img ./data/my_subject.jpg   --epochs 600 --batch 4   --lora_
 ---
 
 ## 📚 Citation
+
+If you find Arc2Avatar useful for your research, please consider citing our paper:
+
 ```bibtex
 @article{gerogiannis2025arc2avatar,
   title={Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance},
