@@ -1,4 +1,6 @@
-# Arc2Avatar: Generating Expressive 3‑D Avatars from a Single Image via ID Guidance
+<div align="center">
+  <h1>Arc2Avatar: Generating Expressive 3‑D Avatars from a Single Image via ID Guidance</h1>
+</div>
 
 <p align="center"><img src="./assets/teaser.png" width="1000" alt="Method overview placeholder"></p>
 
