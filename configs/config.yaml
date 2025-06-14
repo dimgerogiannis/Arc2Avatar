@@ -48,9 +48,6 @@ GenerateCamParams:
   max_radius_range: [4.6, 5.9] 
   default_radius: 4.5
 
-  back_radius_range: [5.8, 6.1]
-  back_max_radius_range: [4.4, 6.1] 
- 
   default_fovy: 0.65
   fovy_range: [0.4, 0.6]  
   max_fovy_range: [0.3, 0.7]  
