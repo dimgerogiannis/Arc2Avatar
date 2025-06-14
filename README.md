@@ -42,19 +42,29 @@
 ---
 
 ## ⚙️ Installation
-```bash
-# 1 · Conda shell (GPU build, CUDA 11.8)
-conda create -n Arc2Avatar python=3.9 cudatoolkit=11.8 -y
-conda activate Arc2Avatar
+## ⚙️ Installation
 
-# 2 · Python stack
+```bash
+# 1 · Clone submodules with recursive flags
+cd submodules
+git clone --recursive https://github.com/YixunLiang/diff-gaussian-rasterization.git
+git clone --recursive https://github.com/YixunLiang/simple-knn.git
+cd ..
+
+# 2 · Create Conda environment (GPU setup, CUDA 11.8)
+conda create -n arc2avatar python=3.9.16 cudatoolkit=11.8 -y
+conda activate arc2avatar
+
+# 3 · Install Python dependencies
 python -m pip install -U pip setuptools wheel
 python -m pip install -r requirements.txt
 
-# 3 · Local CUDA extensions
-env PIP_NO_BUILD_ISOLATION=1 python -m pip install   --config-settings editable_mode=compat   -e submodules/diff-gaussian-rasterization   -e submodules/simple-knn
-```
-*CPU‑only?* Remove `cudatoolkit=11.8` and install the `+cpu` Torch wheels.
+# 4 · Build local CUDA extensions
+python -m pip install submodules/diff-gaussian-rasterization/
+python -m pip install submodules/simple-knn/
+
+# 5 · Download Arc2Face models
+python download_models.py
 
 ---
 
