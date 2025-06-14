@@ -1,0 +1,58 @@
+# ============================================================
+# (GPU build, CUDA 11.8)
+# NVIDIA GeForce RTX 4090 
+# ============================================================
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# ── Core DL stack (install FIRST) ────────────────────────────
+pip==23.3.1
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+torchaudio==2.0.2+cu118
+triton
+accelerate==0.29.3
+xformers==0.0.20
+
+# ── Diffusion / Transformers  ───────────────────────────────
+diffusers==0.23.0
+transformers==4.30.2
+safetensors
+huggingface_hub==0.16.4
+
+# ── 3-D / Geometry  ─────────────────────────────────────────
+open3d==0.18.0
+trimesh==4.3.1
+smplx==0.1.28
+face-alignment==1.4.1
+
+# ── CV / Augmentation  ──────────────────────────────────────
+albumentations==1.4.4
+kornia==0.7.3
+mediapipe
+opencv-python==4.9.0.80
+imageio==2.31.1
+imageio-ffmpeg
+Pillow
+scikit-image==0.22.0
+scipy==1.13.0
+pandas==2.2.2
+tqdm
+
+# ── Logging / UI  ───────────────────────────────────────────
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+gradio==4.8.0
+wandb
+matplotlib==3.8.4
+yacs==0.1.8
+fire==0.5.0
+PyYAML
+dacite==1.8.1
+
+# ── Face analysis  ──────────────────────────────────────────
+insightface
+onnxruntime-gpu==1.17.1     # 1.17.3 is the CUDA 11.8 build
+
+# ── Misc  ───────────────────────────────────────────────────
+plyfile==0.8.1
+
