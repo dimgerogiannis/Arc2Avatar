@@ -20,7 +20,7 @@ GuidanceParams:
   t_range: [0.02, 0.5]
   max_t_range: 0.98
   lambda_guidance: 0.1
-  guidance_scale: 1.3
+  guidance_scale: 1.25
   denoise_guidance_scale: 1.0
   noise_seed: 5252323
 
@@ -48,7 +48,7 @@ GenerateCamParams:
   max_radius_range: [4.6, 5.9] 
   default_radius: 4.5
 
-  default_fovy: 0.65
+  default_fovy: 0.7
   fovy_range: [0.4, 0.6]  
   max_fovy_range: [0.3, 0.7]  
 
